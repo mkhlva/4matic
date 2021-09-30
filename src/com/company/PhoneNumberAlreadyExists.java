@@ -2,7 +2,7 @@ package com.company;
 
 public class PhoneNumberAlreadyExists extends Exception{
     public String toString(){
-        return "Error";
+        return "Error 1";
     }
 }
 

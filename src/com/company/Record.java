@@ -19,7 +19,11 @@ public class Record {
     public String getPhoneNumber(){
         return this.phoneNumber;
     }
-    public String getName(String name){
+    public String getName(){
         return this.name;
+    }
+
+    public String toString() {
+        return getName();
     }
 }

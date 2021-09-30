@@ -9,10 +9,13 @@ public class Main {
 	    PhoneBook ph = new PhoneBook();
         ph.createRecord(new Record(1, "89130109089", "Andrey"));
         ph.createRecord(new Record(2, "89130050111", "Ivan"));
-        ph.createRecord(new Record(2, "89139130011", "Sergey"));
-        List<Record> list = ph.getAllRecords();
-//        pb.updateRecord(new Record(1, "89130107070", "Andrey"));
+        ph.createRecord(new Record(3, "89139130011", "Sergey"));
+        ph.updateRecord(new Record(1, "89130107070", "Andrey"));
         ph.updateRecord(new Record(1, "89130109090", "Slava"));
-        //pb.deleteRecord(1);
+        List<Record> list = ph.getAllRecords();
+        System.out.println(list);
+        ph.deleteRecord(2);
+        ph.deleteRecord(5);
+        //System.out.println(list);
     }
 }
