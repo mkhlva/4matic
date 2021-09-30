@@ -11,9 +11,8 @@ public class Main {
         ph.createRecord(new Record(2, "89130050111", "Ivan"));
         ph.createRecord(new Record(2, "89139130011", "Sergey"));
         List<Record> list = ph.getAllRecords();
-//        pb.updateRecord(new Record(111, "8", "Kirill"));
+//        pb.updateRecord(new Record(1, "89130107070", "Andrey"));
         ph.updateRecord(new Record(1, "89130109090", "Slava"));
-        //System.out.println(ph.getAllRecords());
-        //pb.deleteRecord(77);
+        //pb.deleteRecord(1);
     }
 }
